@@ -1,0 +1,33 @@
+.containerAnnonce {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#annonceRoyaume {
+    font-family: 'Open Sans';
+    color: var(--white-color);
+    margin-top: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#patternViking {
+    overflow: hidden;
+    width: 100%;
+    opacity: 0;
+    animation-name: appearImg;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appearImg {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.8;
+    }
+}

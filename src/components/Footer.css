@@ -1,0 +1,35 @@
+
+.mainFooter {
+    color: white;
+    background-color: #51A583;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row > div {
+    padding: 1%;
+}
+
+.col-sm {
+    padding: 12px;
+}
+
+.trait {
+    margin-left: 40px;
+}
+
+.col1 {
+    margin-left: 100px;
+}
+
+.col2 {
+    margin-left: 50px;
+}

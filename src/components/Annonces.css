@@ -1,0 +1,95 @@
+.annonce {
+    margin-top: 50px;
+    width: 800px;
+    box-shadow: -7px -7px 2px 0px #51a58342;
+}
+
+#gradientFilter {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.imgAnnonce {
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.holderAnnonce {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.titreAnnonces {
+    margin-left: 20px;
+    color: black;
+}
+
+.numAnnonces {
+    margin-left: 248px;
+    color: black;
+}
+
+.num {
+    color: gainsboro;
+}
+
+.or {
+    color: black;
+    margin-left: 20px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.btnLivraison {
+    background-color: #51A583;
+    margin-left: 20px;
+    margin-top: 6px;
+    height: 28px;
+    width: 198px;
+    color: white;
+    position: absolute
+}
+
+.btnLivraison:hover {
+    opacity: 0.8;
+}
+
+.btnSavoir {
+    background-color: #51A583;
+    height: 28px;
+    width: 198px;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+}
+
+.textAnnonces {
+    padding: 12px;
+}
+
+@keyframes annonceAppearLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50%)
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes annonceAppearRight {
+    from {
+        opacity: 0;
+        transform: translateX(50%)
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
